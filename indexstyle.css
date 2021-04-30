@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    border-radius: 30px;
+
+  }
+   
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+   
+  /* 头部标题 */
+  .header {
+    padding: 160px;
+    text-align: center;
+    background-image: url(./img/background-img1.png);
+    background-repeat: no-repeat;
+  }
+  .headerp1 {
+    text-align: center;
+    text-indent: 15em;
+    color:rgb(250, 241, 225);
+    font-size: 35px;
+  }
+   
+  .headerh1 {
+    font-size: 100px;
+    color:rgb(250, 241, 225);
+  }
+   
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    background-image: url(./img/bottom.png);
+    background-repeat: no-repeat;
+
+  }
+   
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 100px;
+    text-decoration: none;
+
+  }
+   
+  /* 链接颜色修改 */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   
+
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+   
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+   
+  .fakeimg1 {
+    background-color:white;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .fakeimg2 {
+    background-color:white;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .fakeimg3 {
+    background-color:white;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .fakeimg4 {
+    background-color:white;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .card1 {
+    background-color: white;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .card2 {
+    background-color: white;
+    padding: 0px;
+    margin-top: 0px;
+    height: 500px;
+  }
+  .card3 {
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .card4 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card5 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+   
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 10px;
+    background-image: url(./img/bottom.png);
+  }
+   
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  .table1 {
+    color:black;
+    text-align: center;
+    border-radius: 0%;
+  }
+  tr {
+    border-radius: 0%;
+  }
+ td {
+   border-radius: 0%;
+ }
