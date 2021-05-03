@@ -5,6 +5,7 @@
    
   body {
     font-family: Arial;
+    font-weight: bold;
     padding: 10px;
     background: #f1f1f1;
     background-image: url(../../img/background-krzaqf.jpg);
@@ -12,6 +13,8 @@
     background-repeat: repeat-y;
     background-size: 100%;
   }
+
+  /* header tag */
 
   .header {
     padding: 15%;
@@ -31,6 +34,8 @@
     font-size: 60px;
   }
    
+  /* navigation tag */
+
   .topnav {
     position: relative;
     overflow: hidden;
@@ -61,8 +66,10 @@
     color: black;
   }
    
+  /* card tag */
+
   .card1 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     margin-top: 20px;
   }
@@ -94,6 +101,8 @@
       width: 100%;
     }
   }
+
+  /* tail tag */
 
   #thanks {
     padding: 1px 1px;

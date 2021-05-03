@@ -17,6 +17,7 @@ $scene = "$CurrDir/scenery.php";
 $apr_img = "$CurrDir/img/apr-ico.png";
 $music = "$CurrDir/music/C418-Alpha.flac";
 $mainjs = "$CurrDir/assets/js/main.js";
+$mcfile = "http://royenheart.com/wp-content/uploads/MC1.16.4%E5%AE%A2%E6%88%B7%E7%AB%AF.7z";
 require_once __DIR__.'/data.php';
 ?>
 
@@ -44,7 +45,7 @@ require_once __DIR__.'/data.php';
   </div>
   <div class="topnav">
     <div class="link_box" style="float: left;left: 5%;"><a class="a_link" href="#introduce">本服简介</a></div>
-    <div class="link_box" style="position: absolute;left: 35%;"><a class="a_link" href="<?php echo $index; ?>">加入我们</a></div>
+    <div class="link_box" style="position: absolute;left: 35%;"><a class="a_link" href="#joinus">加入我们</a></div>
     <div class="link_box" style="float: right;right: 5%;"><a class="a_link" href="<?php echo $scene; ?>">建筑美景</a></div>
   </div>
   <div>
@@ -85,7 +86,7 @@ require_once __DIR__.'/data.php';
           </tr>
           <tr>
             <td>正版验证：</td>
-            <td>目前有（</td>
+            <td>无（需白名单）</td>
           </tr>
           <tr>
             <td>
@@ -127,7 +128,7 @@ require_once __DIR__.'/data.php';
         <br>
       </div>
       <div class="card2">
-        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;" href="<?php echo $scene; ?>">建筑美景</a></h2>
+        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;" href="<?php echo $scene; ?>">欢迎加入</a></h2>
         <img style="width: 100%; height: 75%;" alt="图片显示错误" src="<?php echo $pic1; ?>" ></img>
       </div>
     </div>
@@ -136,6 +137,7 @@ require_once __DIR__.'/data.php';
         <!-- 显示服务器状态代码：原作者为MCNewsTools，由GamerNoTitle二次修改 -->
         <h2 style="text-align: center;">Minecraft服务器状态</h2>
         <hr>
+        <div style="text-align: center;">
         <p>状态：<font color="#2a6c0f">
             <?php echo $status; ?>
           </font>
@@ -151,15 +153,10 @@ require_once __DIR__.'/data.php';
         <p>可容纳最大玩家数：<font color="#2a6c0f">
             <?php echo $players_max; ?>
           </font>
-          <br>在线玩家数：<font color="#2a6c0f">
-            <?php echo $players_online; ?>
-          </font>
         </p>
         <!-- <hr> -->
         <p>目前在线玩家 <font color="#2a6c0f">
             <?php echo $players_online; ?>
-          </font>/<font color="#2a6c0f">
-            <?php echo $players_max; ?>
           </font>
         </p>
         <!-- The below can't work, need to be solved -->
@@ -174,14 +171,25 @@ require_once __DIR__.'/data.php';
         <?php //else: ?>
         <?php //echo "无玩家在线." ;?>
         <?php //endif; ?>
+        </div>
         <hr>
       </div>
-      <div class="card4">
+      <div id="joinus" class="card4">
         <h3 style="text-align: center;">本服群聊</h3>
         <p style="text-align: center;"><a target="_blank"
             href="https://qm.qq.com/cgi-bin/qm/qr?k=wVBDgVpd5uz1UVVyUmCSB0YQLYxnH0fK&jump_from=webapi"><img border="0"
               src="https://pub.idqqimg.com/wpa/images/group.png" alt="PHAR" title="PHAR" class="join"></a>
         </p>
+      </div>
+      <div class="card5">
+        <h2 style="text-align: center;">联系管理员</h2>
+        QQ:1270633872 <br>
+        邮箱:royenheart@outlook.com <br>
+      </div>
+      <div class="card6">
+        <h2 style="text-align: center;">下载客户端文件</h2>
+        <p>支持正版</p>
+        <a id="download" href="<?php echo $mcfile; ?>">下载</a>
       </div>
     </div>
   </div>

@@ -35,7 +35,7 @@ require_once __DIR__.'/data.php';
     <p></p>
   </div>
   <div class="topnav">
-    <div class="link_box" style="float: left;left: 5%;"><a class="a_link" href="#introduce">本服简介</a></div>
+    <div class="link_box" style="float: left;left: 5%;"><a class="a_link" href="<?php echo $index; ?>">本服简介</a></div>
     <div class="link_box" style="position: absolute;left: 35%;"><a class="a_link" href="<?php echo $index; ?>">加入我们</a></div>
     <div class="link_box" style="float: right;right: 5%;"><a class="a_link" href="<?php echo $scene; ?>">建筑美景</a></div>
   </div>
@@ -49,8 +49,19 @@ require_once __DIR__.'/data.php';
 
   </div>
   <div class="row">
-    <div class="card2">
+    <div class="card1">
       <h2 style="text-align: center; font-size: 40px;">建筑美景</h2>
+      <?php
+        $ls=1;
+        for ($ls=1;$ls<=3;$ls++) {
+          if ($ls<10) {
+            $imgB="$CurrDir/img/beauty0$ls.png";
+          } else {
+            $imgB="$CurrDir/img/beauty$ls.png";
+          }
+          echo "<img alt='图片显示错误' style='width: 100%; height: 75%;' src='$imgB'></img>"; 
+        }
+      ?>
     </div>
 
     <div class="footer">
