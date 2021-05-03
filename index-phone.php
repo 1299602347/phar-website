@@ -11,6 +11,7 @@ $CurrDir = "http://royenheart.com/wp-content/themes/phar-mc";
 $icon = "$CurrDir/img/icon.png";
 $pic1 = "$CurrDir/img/pictures1.png";
 $maincss = "$CurrDir/style.css";
+$phonecss = "$CurrDir/assets/css/style_phone.css";
 $index = "$CurrDir/index.php";
 $scene = "$CurrDir/scenery.php";
 $apr_img = "$CurrDir/img/apr-ico.png";
@@ -19,6 +20,7 @@ $mainjs = "$CurrDir/assets/js/main.js";
 require_once __DIR__.'/data.php';
 ?>
 
+<!-- 手机端 -->
 <!DOCTYPE html>
 <html lang="zh-cn">
 
@@ -28,8 +30,7 @@ require_once __DIR__.'/data.php';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PHAR-兰州大学MC服</title>
   <link rel="icon" type="image/x-icon" href="<?php echo $icon; ?>" />
-  <link rel="stylesheet" href="<?php echo $maincss; ?>" />
-  <script type="text/javascript" src="<?php echo $mainjs; ?>"></script>
+  <link rel="stylesheet" href="<?php echo $phonecss; ?>" />
 </head>
 
 <body>
