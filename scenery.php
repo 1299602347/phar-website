@@ -28,15 +28,15 @@ require_once __DIR__.'/data.php';
 
   <div class="header">
     <h1 class="headerh1"><a style="text-decoration: none; color: rgb(250, 241, 225);" href="<?php echo $index; ?>">PHAR</a></h1>
-    <p class="headerp1">————Lzuer们的minecraft服务器</p>
+    <h2 class="headerp1">Lzuer们的minecraft服务器</h2>
   </div>
   <div>
     <p></p>
   </div>
   <div class="topnav">
-    <a href="#introduce" style="float: left;position: absolute;left: 15%;">本服简介</a>
-    <a href="<?php echo $index; ?>" style="float: left;position: absolute;left: 45%;">加入我们</a>
-    <a href="<?php echo $scene; ?>" style="float: right;position: absolute;right: 15%;">建筑美景</a>
+    <div class="link_box" style="float: left;left: 5%;"><a class="a_link" href="#introduce">本服简介</a></div>
+    <div class="link_box" style="position: absolute;left: 35%;"><a class="a_link" href="<?php echo $index; ?>">加入我们</a></div>
+    <div class="link_box" style="float: right;right: 5%;"><a class="a_link" href="<?php echo $scene; ?>">建筑美景</a></div>
   </div>
   <div>
     <p></p>
@@ -54,12 +54,12 @@ require_once __DIR__.'/data.php';
 
     <div class="footer">
       <h2 style="color:white;font-size:16px;">期待的你加入~ 官方Q群：853106198</h2>
-      <h2 style="color: white; font-size: 16px; ">Copyright by <a href="https://github.com/1299602347/phar-website" target="_blank">知交</a></h2>
+      <h2 style="color: white; font-size: 16px; ">Copyright by <a id="thanks" href="https://github.com/1299602347/phar-website" target="_blank">知交</a></h2>
       <h2 style="color: white; font-size: 16px; ">And royenheart</h2>
       <div style="color: white; font-size: 16px;">
         <h2 style="font: normal normal 17px fantasy;">
         ICP：浙ICP备2020042582号-1<br>
-        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62012302000279"><img
+        <a id="gov" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62012302000279"><img
             src="<?php echo $apr_img; ?>" />甘公网安备62012302000279号</a>
         </h2>
       </div>
