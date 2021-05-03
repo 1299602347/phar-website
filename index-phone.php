@@ -156,23 +156,24 @@ require_once __DIR__.'/data.php';
           </font>
         </p>
         <!-- <hr> -->
-        <h3>目前在线玩家 <font color="#2a6c0f">
+        <p>目前在线玩家 <font color="#2a6c0f">
             <?php echo $players_online; ?>
           </font>/<font color="#2a6c0f">
             <?php echo $players_max; ?>
           </font>
-        </h3>
-        <?php if (is_array($Players)) : ?>
-        <?php foreach($Players as $Player) : ?>
-        <?php if ($platform == "MINECRAFT") : ?>
-        <?php echo '<img src="https://cravatar.eu/helmhead/'.htmlspecialchars($Player).'/15.png"> '.htmlspecialchars($Player); ?><br>
-        <?php else: ?>
-        <?php echo '<img src="https://cravatar.eu/helmhead/steve/15.png"> '.htmlspecialchars($Player); ?><br>
-        <?php endif; ?>
-        <?php endforeach; ?>
-        <?php else: ?>
-        <?php echo "无玩家在线." ;?>
-        <?php endif; ?>
+        </p>
+        <!-- The below can't work, need to be solved -->
+        <?php //if (is_array($Players)) : ?>
+        <?php //foreach($Players as $Player) : ?>
+        <?php //if ($platform == "MINECRAFT") : ?>
+        <?php //echo '<img src="https://cravatar.eu/helmhead/'.htmlspecialchars($Player).'/15.png"> '.htmlspecialchars($Player); ?><br>
+        <?php //else: ?>
+        <?php //echo '<img src="https://cravatar.eu/helmhead/steve/15.png"> '.htmlspecialchars($Player); ?><br>
+        <?php //endif; ?>
+        <?php //endforeach; ?>
+        <?php //else: ?>
+        <?php //echo "无玩家在线." ;?>
+        <?php //endif; ?>
         <hr>
       </div>
       <div class="card4">
@@ -187,8 +188,8 @@ require_once __DIR__.'/data.php';
 
   <div class="footer">
     <h2 style="color: white; font-size: 16px; ">期待的你加入~ 官方Q群：853106198</h2>
-    <h2 style="color: white; font-size: 16px; ">Copyright by <a id="thanks" href="https://github.com/1299602347/phar-website" target="_blank">知交</a></h2>
-    <h2 style="color: white; font-size: 16px; ">And royenheart</h2>
+    <h2 style="color: white; font-size: 16px; ">Copyright by <a id="thanks" href="https://github.com/1299602347" target="_blank">知交</a></h2>
+    <h2 style="color: white; font-size: 16px; ">And <a id="thanks" href="https://github.com/royenheart" target="_blank">royenheart</a></h2>
     <div style="color: white; font-size: 16px;">
       <h2 style="font: normal normal 17px fantasy;">
         ICP：浙ICP备2020042582号-1<br>

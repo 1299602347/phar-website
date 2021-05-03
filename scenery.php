@@ -9,6 +9,7 @@ $scenecss = "$CurrDir/assets/css/style_scene.css";
 $index = "$CurrDir/index.php";
 $scene = "$CurrDir/scenery.php";
 $music = "$CurrDir/music/C418-Alpha.flac";
+$mainjs = "$CurrDir/assets/js/main.js";
 require_once __DIR__.'/data.php';
 ?>
 
@@ -54,8 +55,8 @@ require_once __DIR__.'/data.php';
 
     <div class="footer">
       <h2 style="color:white;font-size:16px;">期待的你加入~ 官方Q群：853106198</h2>
-      <h2 style="color: white; font-size: 16px; ">Copyright by <a id="thanks" href="https://github.com/1299602347/phar-website" target="_blank">知交</a></h2>
-      <h2 style="color: white; font-size: 16px; ">And royenheart</h2>
+      <h2 style="color: white; font-size: 16px; ">Copyright by <a id="thanks" href="https://github.com/1299602347" target="_blank">知交</a></h2>
+    <h2 style="color: white; font-size: 16px; ">And <a id="thanks" href="https://github.com/royenheart" target="_blank">royenheart</a></h2>
       <div style="color: white; font-size: 16px;">
         <h2 style="font: normal normal 17px fantasy;">
         ICP：浙ICP备2020042582号-1<br>

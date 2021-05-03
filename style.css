@@ -7,7 +7,8 @@
     font-family: Arial;
     padding: 10px;
     background: #f1f1f1;
-    background-image: url(./img/novamc-background1.jpeg);
+    background-image: url(./img/background-krzaqf.jpg);
+    background-attachment: fixed;
     background-repeat: repeat-y;
     background-size: 100%;
   }
