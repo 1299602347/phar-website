@@ -8,7 +8,7 @@
     font-weight: bold;
     padding: 10px;
     background: #f1f1f1;
-    background-image: url(../../img/background-krzaqf.jpg);
+    background-image: url(../../img/background-phone.jpg);
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-size: 100%;
@@ -25,12 +25,12 @@
   }
   
   .headerp1 {
-    color:rgb(250, 241, 225);
+    color: rgb(250, 241, 225);
     font-size: 35px;
   }
    
   .headerh1 {
-    color:rgb(250, 241, 225);
+    color: rgb(250, 241, 225);
     font-size: 60px;
   }
   

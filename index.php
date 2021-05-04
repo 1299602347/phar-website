@@ -128,7 +128,7 @@ require_once __DIR__.'/data.php';
         <br>
       </div>
       <div class="card2">
-        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;" href="<?php echo $scene; ?>">欢迎加入</a></h2>
+        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;" href="#joinus">欢迎加入</a></h2>
         <img style="width: 100%; height: 75%;" alt="图片显示错误" src="<?php echo $pic1; ?>" ></img>
       </div>
     </div>
@@ -176,9 +176,8 @@ require_once __DIR__.'/data.php';
       </div>
       <div id="joinus" class="card4">
         <h2 style="text-align: center;">本服群聊</h2>
-        <p style="text-align: center;"><a target="_blank"
-            href="https://qm.qq.com/cgi-bin/qm/qr?k=wVBDgVpd5uz1UVVyUmCSB0YQLYxnH0fK&jump_from=webapi"><img border="0"
-              src="https://pub.idqqimg.com/wpa/images/group.png" alt="PHAR" title="PHAR" class="join"></a>
+        <p style="text-align: center;"><a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=wVBDgVpd5uz1UVVyUmCSB0YQLYxnH0fK&jump_from=webapi">
+        <img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="PHAR" title="PHAR" class="join"></a>
         </p>
       </div>
       <div class="card5">

@@ -128,7 +128,7 @@ require_once __DIR__.'/data.php';
         <br>
       </div>
       <div class="card2">
-        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;" href="<?php echo $scene; ?>">欢迎加入</a></h2>
+        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;" href="#joinus">欢迎加入</a></h2>
         <img style="width: 100%; height: 75%;" alt="图片显示错误" src="<?php echo $pic1; ?>" ></img>
       </div>
     </div>

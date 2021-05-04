@@ -10,6 +10,9 @@ $index = "$CurrDir/index.php";
 $scene = "$CurrDir/scenery.php";
 $music = "$CurrDir/music/C418-Alpha.flac";
 $mainjs = "$CurrDir/assets/js/main.js";
+$joinus = "$index#joinus";
+$b1 = "$CurrDir/img/beauty01.png";
+$scenejs = "$CurrDir/assets/js/change_scene.js";
 require_once __DIR__.'/data.php';
 ?>
 
@@ -23,9 +26,10 @@ require_once __DIR__.'/data.php';
   <title>PHAR-服内建筑美景</title>
   <link rel="icon" type="image/x-icon" href="<?php echo $icon; ?>" />
   <link rel="stylesheet" href="<?php echo $scenecss; ?>">
+  <script type="text/javascript" src="<?php echo $scenejs; ?>"></script>
 </head>
 
-<body>
+<body id="scenebody">
 
   <div class="header">
     <h1 class="headerh1"><a style="text-decoration: none; color: rgb(250, 241, 225);" href="<?php echo $index; ?>">PHAR</a></h1>
@@ -36,7 +40,7 @@ require_once __DIR__.'/data.php';
   </div>
   <div class="topnav">
     <div class="link_box" style="float: left;left: 5%;"><a class="a_link" href="<?php echo $index; ?>">本服简介</a></div>
-    <div class="link_box" style="position: absolute;left: 35%;"><a class="a_link" href="<?php echo $index; ?>">加入我们</a></div>
+    <div class="link_box" style="position: absolute;left: 35%;"><a class="a_link" href="<?php echo $joinus; ?>">加入我们</a></div>
     <div class="link_box" style="float: right;right: 5%;"><a class="a_link" href="<?php echo $scene; ?>">建筑美景</a></div>
   </div>
   <div>
@@ -47,21 +51,10 @@ require_once __DIR__.'/data.php';
     <audio style='width: 100%;' src="<?php echo $music; ?>" controls auto loop></audio><br>
   </div>
 
-  </div>
   <div class="row">
     <div class="card1">
       <h2 style="text-align: center; font-size: 40px;">建筑美景</h2>
-      <?php
-        $ls=1;
-        for ($ls=1;$ls<=3;$ls++) {
-          if ($ls<10) {
-            $imgB="$CurrDir/img/beauty0$ls.png";
-          } else {
-            $imgB="$CurrDir/img/beauty$ls.png";
-          }
-          echo "<img alt='图片显示错误' style='width: 100%; height: 75%;' src='$imgB'></img>"; 
-        }
-      ?>
+      <img id="b1sc" alt='图片显示错误' style='width: 100%; height: 75%;' src="<?php echo $b1; ?>"></img>
     </div>
 
     <div class="footer">
@@ -76,7 +69,7 @@ require_once __DIR__.'/data.php';
         </h2>
       </div>
     </div>
-
+  </div>
 </body>
 
 </html>
