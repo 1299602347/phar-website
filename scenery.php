@@ -1,6 +1,6 @@
 <?php
 
-$CurrDir = "http://royenheart.com/wp-content/themes/phar-mc";
+$CurrDir = "https://royenheart.com/wp-content/themes/phar-mc";
 $icon = "$CurrDir/img/icon.png";
 $icon2 = "$CurrDir/img/icon2.png";
 $pic1 = "$CurrDir/img/pictures1.png";

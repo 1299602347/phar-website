@@ -7,7 +7,7 @@ $host = $_GET["host"];
 $port = $_GET["port"];
 */
 
-$CurrDir = "http://royenheart.com/wp-content/themes/phar-mc";
+$CurrDir = "https://royenheart.com/wp-content/themes/phar-mc";
 $icon = "$CurrDir/img/icon.png";
 $pic1 = "$CurrDir/img/pictures1.png";
 $maincss = "$CurrDir/style.css";
@@ -17,7 +17,7 @@ $scene = "$CurrDir/scenery.php";
 $apr_img = "$CurrDir/img/apr-ico.png";
 $music = "$CurrDir/music/C418-Alpha.flac";
 $mainjs = "$CurrDir/assets/js/main.js";
-$mcfile = "http://royenheart.com/wp-content/uploads/MC1.16.4%E5%AE%A2%E6%88%B7%E7%AB%AF.7z";
+$mcfile = "https://royenheart.com/wp-content/uploads/MC1.16.4%E5%AE%A2%E6%88%B7%E7%AB%AF.7z";
 require_once __DIR__.'/data.php';
 ?>
 

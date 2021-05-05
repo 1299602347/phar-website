@@ -1,5 +1,5 @@
 var index=0;
-var addr = "http://royenheart.com/wp-content/themes/phar-mc";
+var addr = "https://royenheart.com/wp-content/themes/phar-mc";
 var scene=[addr+"/img/beauty01.png",addr+"/img/beauty02.png",addr+"/img/beauty03.png"];
 
 function scene_switch() {
