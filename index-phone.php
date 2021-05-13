@@ -126,7 +126,7 @@ require_once __DIR__.'/data.php';
           备注：目前服务器仅对兰州大学在校生开放，具体内容请加群了解。
         </p>
         <p style="text-align: center;">
-          卫星地图：<a id="download" href="royenheart.com:8123">地址</a>
+          卫星地图：<a id="download" href="http://royenheart.com:8123">地址</a>
         </p>
         <br>
       </div>
