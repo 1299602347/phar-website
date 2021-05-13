@@ -125,6 +125,9 @@ require_once __DIR__.'/data.php';
         <p style="text-align: center;">
           备注：目前服务器仅对兰州大学在校生开放，具体内容请加群了解。
         </p>
+        <p style="text-align: center;">
+          卫星地图：<a id="download" href="royenheart.com:8123">地址</a>
+        </p>
         <br>
       </div>
       <div class="card2">
@@ -156,7 +159,7 @@ require_once __DIR__.'/data.php';
         </p>
         <!-- <hr> -->
         <p>目前在线玩家 <font color="#2a6c0f">
-            <?php echo $players_online; ?>
+          <?php echo "$players_online/$players_max"; ?>
           </font>
         </p>
         <!-- The below can't work, need to be solved -->
