@@ -61,72 +61,24 @@ require_once __DIR__.'/data.php';
     <div class="leftcolumn">
       <div class="card1">
         <h2 id="introduce" style="text-align: center; font-size: 40px;">本服简介</h2>
-        <p class="table1" style="position: absolute;">
-        <table class="table1" align="center" border="1" cellspacing="0">
-          <tr>
-            <td>服务器名称：</td>
-            <td>PHAR</td>
-          </tr>
-          <TR>
-            <TD>有效状态：</TD>
-            <td>长期开放</td>
-          </TR>
-          <tr>
-            <td>游戏版本：</td>
-            <td>1.16.4</td>
-          </tr>
-          <tr>
-            <td>服务器类型：
-            </td>
-            <td>纯公益服务器</td>
-          </tr>
-          <tr>
-            <td>游戏模式:</td>
-            <td>纯净原版生存</td>
-          </tr>
-          <tr>
-            <td>正版验证：</td>
-            <td>无（需白名单）</td>
-          </tr>
-          <tr>
-            <td>
-              最大在线人数：
-            </td>
-            <td>
-              8
-            </td>
-          </tr>
-          <tr>
-            <td>
-              服务器插件：
-            </td>
-            <td>
-              部分基础插件+经济类插件
-            </td>
-          </tr>
-          <tr>
-            <td>
-              服务器地址：
-            </td>
-            <td>
-              royenheart.com
-            </td>
-          </tr>
-          <tr>
-            <td>
-              QQ群：
-            </td>
-            <td>
-              853106198
-            </td>
-          </tr>
-        </table>
+          <table class="table1">
+              <tr><th colspan="2" id="headoftable1">PHAR</th></tr>
+              <tr><td>有效状态</td><td>长期开放</td></tr>
+              <tr><td>游戏版本</td><td>1.16.4</td></tr>
+              <tr><td>服务器类型</td><td>纯公益服务器</td></tr>
+              <tr><td>游戏模式</td><td>纯净原版生存</td></tr>
+              <tr><td>正版验证</td><td>无（需白名单）</td></tr>
+              <tr><td>最大在线人数</td><td>10</td></tr>
+              <tr><td>服务器插件</td><td>部分基础插件+经济类插件</td></tr>
+              <tr><td>服务器地址</td><td>royenheart.com</td></tr>
+              <tr><td>QQ群</td><td>853106198</td></tr>
+              <tr><td>卫星地图</td><td><a id="download" href="http://royenheart.com:8123">点击查看</a></td></tr>
+            </table>
         </p>
         <p style="text-align: center;">
-          备注：目前服务器仅对兰州大学在校生开放，具体内容请加群了解。
-        </p>
-        <p style="text-align: center;">
-          卫星地图：<a id="download" href="http://royenheart.com:8123">地址</a>
+          服务器仅对兰州大学在校生开放，具体内容请加群了解。<br>
+          也欢迎各位支持复刻兰大的项目，复刻兰大服务器地址：mc4.xlhost.cn:22184 <br>
+          复刻兰大服务器由PloughRemnant友情提供。
         </p>
         <br>
       </div>
@@ -186,13 +138,15 @@ require_once __DIR__.'/data.php';
       </div>
       <div class="card5">
         <h2 style="text-align: center;">联系管理员</h2>
-        QQ:1270633872 <br>
-        邮箱:royenheart@outlook.com <br>
+        <p><a id="download" href="https://github.com/1299602347" target="_blank">知交</a></p> 
+        <p><a id="download" href="https://github.com/royenheart" target="_blank">royenheart</a></p>
       </div>
       <div class="card6">
         <h2 style="text-align: center;">下载客户端文件</h2>
         <p>支持正版</p>
-        <a id="download" href="<?php echo $mcfile; ?>">下载</a>
+        <p><a id="download" href="<?php echo $mcfile01; ?>">MC1.16.4纯净客户端</a></p>
+        <p><a id="download" href="<?php echo $mcfile02; ?>">MC1.16.4FABRIC客户端</a></p>
+        <p><a id="download" href="<?php echo $mcfile03; ?>">复刻兰大服务器客户端</a></p>
       </div>
     </div>
   </div>
