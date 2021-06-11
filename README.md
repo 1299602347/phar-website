@@ -24,7 +24,7 @@ PHAR服务器开始于2021年2月，是为所有热爱MC的兰大学子提供的
 |  <kbd>服务器状态</kbd>  |  长期开放  |
 
 ## 鸣谢
-感谢[知交](mailto:1299602347@qq.com)的网站编写
-感谢[兰州大学开源社区](https://github.com/LZUOSS)提供的支持
-感谢[PloughRemnant](mailto:PloughRemnant@126.com)提供的兰大复刻服务器
-感谢各位热爱MC的兰大学子
+感谢[知交](mailto:1299602347@qq.com)的网站编写  
+感谢[兰州大学开源社区](https://github.com/LZUOSS)提供的支持  
+感谢[PloughRemnant](mailto:PloughRemnant@126.com)提供的兰大复刻服务器  
+感谢各位热爱MC的兰大学子  
