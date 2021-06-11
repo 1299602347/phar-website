@@ -2,5 +2,5 @@
 .vscode/launch.json
 .vscode/settings.json
 .vscode/tasks.json
-img/*
-music/*
+img/
+music/
