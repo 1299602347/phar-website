@@ -2,9 +2,5 @@
 .vscode/launch.json
 .vscode/settings.json
 .vscode/tasks.json
-*.jpeg
-*.png
-*.png
-img/README.md
-music/README.md
-img/pictures1.png
+img/*
+music/*
