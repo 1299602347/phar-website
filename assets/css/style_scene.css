@@ -8,7 +8,7 @@
     font-weight: bold;
     padding: 10px;
     background: #f1f1f1;
-    background-image: url(../../img/background-krzaqf.jpg);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/background-krzaqf.jpg);
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-size: 100%;
@@ -20,7 +20,7 @@
     padding: 15%;
     overflow: hidden;
     text-align: center;
-    background-image: url(../../img/background-img1.png);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/background-img1.png);
     background-repeat: repeat-y;
   }
 
@@ -40,7 +40,7 @@
     position: relative;
     overflow: hidden;
     background-color: #333;
-    background-image: url(../../img/bottom.png);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/bottom.png);
     text-align: center;
     background-repeat: repeat-x repeat-y;
     width: 100%;
@@ -85,7 +85,7 @@
     text-align: center;
     background: #ddd;
     margin-top: 10px;
-    background-image: url(../../img/bottom.png);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/bottom.png);
   }
 
   @media screen and (max-width: 800px) {

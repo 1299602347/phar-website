@@ -1,18 +1,20 @@
 <?php
 
 $CurrDir = "https://royenheart.com/wp-content/themes/phar-mc";
-$icon = "$CurrDir/img/icon.png";
-$icon2 = "$CurrDir/img/icon2.png";
-$pic1 = "$CurrDir/img/pictures1.png";
+$imgDir = "https://royenheart.com/wp-content/uploads/phar-mc/img";
+$mscDir = "https://royenheart.com/wp-content/uploads/msc";
+$icon = "$imgDir/icon.png";
+$icon2 = "$imgDir/icon2.png";
+$pic1 = "$imgDir/pictures1.png";
+$b1 = "$imgDir/beauty01.png";
+$music = "$mscDir/C418-Alpha.flac";
 $maincss = "$CurrDir/style.css";
 $scenecss = "$CurrDir/assets/css/style_scene.css";
 $index = "$CurrDir/index.php";
 $scene = "$CurrDir/scenery.php";
-$music = "$CurrDir/music/C418-Alpha.flac";
 $mainjs = "$CurrDir/assets/js/main.js";
-$joinus = "$index#joinus";
-$b1 = "$CurrDir/img/beauty01.png";
 $scenejs = "$CurrDir/assets/js/change_scene.js";
+$joinus = "$index#joinus";
 require_once __DIR__.'/data.php';
 ?>
 
@@ -48,12 +50,13 @@ require_once __DIR__.'/data.php';
   </div>
   <div style="background-color: rgba(255,255,255,0.4);padding: 10px;">
     <h3 style="text-align: center;font-size: 28px;color: #000000;">C418-Alpha</h3>
-    <audio style='width: 100%;' src="<?php echo $music; ?>" controls auto loop></audio><br>
+    <audio style='width: 100%;' src="<?php echo $music; ?>" controls loop autoplay></audio><br>
   </div>
 
   <div class="row">
     <div class="card1">
       <h2 style="text-align: center; font-size: 40px;">建筑美景</h2>
+      <p id="explain" style="text-align: center;">主城夜景</p>
       <img id="b1sc" alt='图片显示错误' style='width: 100%; height: 75%;' src="<?php echo $b1; ?>"></img>
     </div>
 

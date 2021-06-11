@@ -9,13 +9,15 @@ $port = $_GET["port"];
 
 // 声明文件路径
 $CurrDir = "https://royenheart.com/wp-content/themes/phar-mc";
-$icon = "$CurrDir/img/icon.png";
-$pic1 = "$CurrDir/img/pictures1.png";
+$imgDir = "https://royenheart.com/wp-content/uploads/phar-mc/img";
+$mscDir = "https://royenheart.com/wp-content/uploads/msc";
+$icon = "$imgDir/icon.png";
+$act1 = "$imgDir/activity.jpeg";
+$apr_img = "$imgDir/apr-ico.png";
+$music = "$mscDir/C418-Alpha.flac";
 $maincss = "$CurrDir/style.css";
 $index = "$CurrDir/index.php";
 $scene = "$CurrDir/scenery.php";
-$apr_img = "$CurrDir/img/apr-ico.png";
-$music = "$CurrDir/music/C418-Alpha.flac";
 $mainjs = "$CurrDir/assets/js/main.js";
 $mcfile01 = "https://royenheart.com/wp-content/uploads/MC1.16.4%E5%AE%A2%E6%88%B7%E7%AB%AF.7z";
 $mcfile02 = "https://royenheart.com/wp-content/uploads/1.16.4fabric%E6%95%B4%E5%90%88%E5%8C%85.zip";
@@ -55,7 +57,7 @@ require_once __DIR__.'/data.php';
   </div>
   <div style="background-color: rgba(255,255,255,0.4);padding: 10px;">
     <h3 style="text-align: center;font-size: 28px;color: #000000;">C418-Alpha</h3>
-    <audio style='width: 100%;' src="<?php echo $music; ?>" controls auto loop></audio><br>
+    <audio style='width: 100%;' src="<?php echo $music; ?>" controls loop autoplay></audio><br>
   </div>
 
   </div>
@@ -74,7 +76,7 @@ require_once __DIR__.'/data.php';
             <tr><td>服务器插件</td><td>部分基础插件+经济类插件</td></tr>
             <tr><td>服务器地址</td><td>royenheart.com</td></tr>
             <tr><td>QQ群</td><td>853106198</td></tr>
-            <tr><td>卫星地图</td><td><a id="download" href="http://royenheart.com:8123">点击查看</a></td></tr>
+            <tr><td>卫星地图</td><td><a class="link_href" href="http://royenheart.com:8123">点击查看</a></td></tr>
           </table>
         <p style="text-align: center;">
           服务器仅对兰州大学在校生开放，具体内容请加群了解。<br>
@@ -84,8 +86,8 @@ require_once __DIR__.'/data.php';
         <br>
       </div>
       <div class="card2">
-        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;" href="#joinus">欢迎加入</a></h2>
-        <img style="width: 100%; height: 75%;" alt="图片显示错误" src="<?php echo $pic1; ?>" ></img>
+        <h2 style="text-align: center; font-size: 40px;"><a style="text-decoration: none;color: black;">近期活动</a></h2>
+        <img style="width: 100%; height: 75%;" alt="图片显示错误" src="<?php echo $act1; ?>" ></img>
       </div>
     </div>
     <div class="rightcolumn">
@@ -138,8 +140,8 @@ require_once __DIR__.'/data.php';
       </div>
       <div class="card5">
         <h2 style="text-align: center;">联系管理员</h2>
-        <p><a id="download" href="https://github.com/1299602347" target="_blank">知交</a></p> 
-        <p><a id="download" href="https://github.com/royenheart" target="_blank">royenheart</a></p>
+        <p><a class="link_href" href="https://github.com/1299602347" target="_blank">知交</a></p> 
+        <p><a class="link_href" href="https://github.com/royenheart" target="_blank">royenheart</a></p>
       </div>
       <div class="card6">
         <h2 style="text-align: center;">下载客户端文件</h2>
@@ -153,12 +155,12 @@ require_once __DIR__.'/data.php';
 
   <div class="footer">
     <h2 style="color: white; font-size: 16px; ">期待的你加入~ 官方Q群：853106198</h2>
-    <h2 style="color: white; font-size: 16px; ">Copyright by <a id="thanks" href="https://github.com/1299602347" target="_blank">知交</a></h2>
-    <h2 style="color: white; font-size: 16px; ">And <a id="thanks" href="https://github.com/royenheart" target="_blank">royenheart</a></h2>
+    <h2 style="color: white; font-size: 16px; ">Copyright by <a class="link_href" href="https://github.com/1299602347" target="_blank">知交</a></h2>
+    <h2 style="color: white; font-size: 16px; ">And <a class="link_href" href="https://github.com/royenheart" target="_blank">royenheart</a></h2>
     <div style="color: white; font-size: 16px;">
       <h2 style="font: normal normal 17px fantasy;">
         ICP：浙ICP备2020042582号-1<br>
-        <a id="gov" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62012302000279"><img
+        <a class="link_href" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62012302000279"><img
             src="<?php echo $apr_img; ?>" />甘公网安备62012302000279号</a>
       </h2>
     </div>
