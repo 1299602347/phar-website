@@ -22,6 +22,7 @@ $mainjs = "$CurrDir/assets/js/main.js";
 $mcfile01 = "https://royenheart.com/wp-content/uploads/MC1.16.4%E5%AE%A2%E6%88%B7%E7%AB%AF.7z";
 $mcfile02 = "https://royenheart.com/wp-content/uploads/1.16.4fabric%E6%95%B4%E5%90%88%E5%8C%85.zip";
 $mcfile03 = "https://royenheart.com/wp-content/uploads/%E5%85%B0%E5%A4%A7%E5%A4%8D%E5%88%BB%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%A2%E6%88%B7%E7%AB%AF.zip";
+
 require_once __DIR__.'/data.php';
 ?>
 
@@ -143,7 +144,7 @@ require_once __DIR__.'/data.php';
       <div class="card5">
         <h2 style="text-align: center;">联系管理员</h2>
         <p><a class="link_href" href="https://github.com/1299602347" target="_blank">知交</a></p> 
-        <p><a class="link_href" href="https://github.com/royenheart" target="_blank">royenheart</a></p>
+        <p><a class="link_href" href="https://github.com/royenheart" target="_blank">RoyenHeart</a></p>
       </div>
       <div class="card6">
         <h2 style="text-align: center;">下载客户端文件</h2>
@@ -158,10 +159,10 @@ require_once __DIR__.'/data.php';
   <div class="footer">
     <h2 style="color: white; font-size: 16px; ">期待的你加入~ 官方Q群：853106198</h2>
     <h2 style="color: white; font-size: 16px; ">Copyright by <a class="link_href" href="https://github.com/1299602347" target="_blank">知交</a></h2>
-    <h2 style="color: white; font-size: 16px; ">And <a class="link_href" href="https://github.com/royenheart" target="_blank">royenheart</a></h2>
+    <h2 style="color: white; font-size: 16px; ">And <a class="link_href" href="https://github.com/royenheart" target="_blank">RoyenHeart</a></h2>
     <div style="color: white; font-size: 16px;">
       <h2 style="font: normal normal 17px fantasy;">
-        ICP：浙ICP备2020042582号-1<br>
+        浙ICP备2020042582号<br>
         <a class="link_href" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62012302000279"><img
             src="<?php echo $apr_img; ?>" />甘公网安备62012302000279号</a>
       </h2>

@@ -1,4 +1,5 @@
 <?php
+// 文件存放位置声明 
 
 $CurrDir = "https://royenheart.com/wp-content/themes/phar-mc";
 $imgDir = "https://royenheart.com/wp-content/uploads/phar-mc/img";
@@ -7,6 +8,7 @@ $icon = "$imgDir/icon.png";
 $icon2 = "$imgDir/icon2.png";
 $pic1 = "$imgDir/pictures1.png";
 $b1 = "$imgDir/beauty01.png";
+$apr_img = "$imgDir/apr-ico.png";
 $music = "$mscDir/C418-Alpha.flac";
 $maincss = "$CurrDir/style.css";
 $scenecss = "$CurrDir/assets/css/style_scene.css";
@@ -15,6 +17,7 @@ $scene = "$CurrDir/scenery.php";
 $mainjs = "$CurrDir/assets/js/main.js";
 $scenejs = "$CurrDir/assets/js/change_scene.js";
 $joinus = "$index#joinus";
+
 require_once __DIR__.'/data.php';
 ?>
 
@@ -57,16 +60,20 @@ require_once __DIR__.'/data.php';
     <div class="card1">
       <h2 style="text-align: center; font-size: 40px;">建筑美景</h2>
       <p id="explain" style="text-align: center;">主城夜景</p>
-      <img id="b1sc" alt='图片显示错误' style='width: 100%; height: 75%;' src="<?php echo $b1; ?>"></img>
+      <div id="img_container">
+        <div id="left_change" onclick="des_switch(-1)"><div id="arr1" class="arrow"><</div></div>
+        <div id="right_change" onclick="des_switch(1)"><div id="arr2" class="arrow">></div></div>
+        <div id="img"><img id="b1sc" alt='图片显示错误' src="<?php echo $b1; ?>"></img></div>
+      </div>
     </div>
 
     <div class="footer">
       <h2 style="color:white;font-size:16px;">期待的你加入~ 官方Q群：853106198</h2>
       <h2 style="color: white; font-size: 16px; ">Copyright by <a id="thanks" href="https://github.com/1299602347" target="_blank">知交</a></h2>
-    <h2 style="color: white; font-size: 16px; ">And <a id="thanks" href="https://github.com/royenheart" target="_blank">royenheart</a></h2>
+    <h2 style="color: white; font-size: 16px; ">And <a id="thanks" href="https://github.com/royenheart" target="_blank">RoyenHeart</a></h2>
       <div style="color: white; font-size: 16px;">
         <h2 style="font: normal normal 17px fantasy;">
-        ICP：浙ICP备2020042582号-1<br>
+        浙ICP备2020042582号<br>
         <a id="gov" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=62012302000279"><img
             src="<?php echo $apr_img; ?>" />甘公网安备62012302000279号</a>
         </h2>
