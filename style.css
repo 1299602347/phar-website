@@ -5,20 +5,19 @@
    
   body {
     font-family: Arial;
+    font-weight: bold;
     padding: 10px;
-    background: #f1f1f1;
-    background-image: url(./img/novamc-background1.jpeg);
-    background-repeat: repeat-y;
+    background: url(https://royenheart.com/wp-content/uploads/phar-mc/img/background-krzaqf.jpg) repeat-y fixed top;
     background-size: 100%;
   }
    
-  /* ͷ������ */
+  /* header tag */
+
   .header {
     padding: 15%;
     overflow: hidden;
     text-align: center;
-    background-image: url(./img/background-img1.png);
-    background-repeat: repeat-y;
+    background: url(https://royenheart.com/wp-content/uploads/phar-mc/img/background-img1.png) repeat-y scroll top;
   }
   
   .headerp1 {
@@ -30,14 +29,16 @@
     color:rgb(250, 241, 225);
     font-size: 60px;
   }
-   
+  
+  /* navigation tag */
+
   .topnav {
     position: relative;
     overflow: hidden;
-    background-color: #333;
-    background-image: url(./img/bottom.png);
-    text-align: center;
+    background-color: #000000;
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/bottom.png);
     background-repeat: repeat-x repeat-y;
+    text-align: center;
     width: 100%;
     height: 60px;
   }
@@ -61,10 +62,13 @@
     color: black;
   }
    
+  /* column tag */
+
   .leftcolumn {   
     margin-top: 20px;
+    margin-bottom: 20px;
     float: left;
-    background-color: #f1f1f1;
+    background-color: rgba(241, 241, 241, 0.5);
     width: 72%;
   }
    
@@ -74,36 +78,53 @@
     position: relative;
     left: 3%;
     width: 25%;
-    background-color: #f1f1f1;
+    background-color: rgba(241, 241, 241, 0.5);
   }
+
+  /* card tag */
 
   .card1 {
     position: relative;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 10px;
-    margin-top: 10px;
   }
 
   .card2 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 10px;
     margin-top: 10px;
   }
 
   .card3 {
-    background-color: white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card4 {
+    background-color: rgba(255, 255, 255, 0.6);
     width: 100%;
     padding: 10px;
     margin-top: 10px;
   }
 
-  .card4 {
-    background-color: white;
+  .card5 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
     width: 100%;
     padding: 10px;
     margin-top: 10px;
   }
-   
+
+  .card6 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
   .row:after {
     content: "";
     display: table;
@@ -115,7 +136,7 @@
     text-align: center;
     background: #ddd;
     margin-top: 10px;
-    background-image: url(./img/bottom.png);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/bottom.png);
   }
    
   @media screen and (max-width: 800px) {
@@ -132,43 +153,48 @@
     }
   }
 
+  #headoftable1 {
+    font-size: 30px;
+  }
+
   .table1 {
-    color:black;
     text-align: center;
-    border-radius: 0%;
+    margin-left: 10%;
+    border-collapse: collapse;
+    border: 4px #000000 solid;   
+    border-radius: 8px;
     width: 80%;
   }
 
-  tr {
-    border-radius: 0%;
-  }
-
-  td {
-    border-radius: 0%;
+  .table1 tr th,.table1 tr td {
+    border: 2px #0f0f0f solid;
   }
 
   .join {
     border-radius: 0%;
   }
 
-  #thanks {
-    padding: 1px 1px;
+  /* tail tag */
+
+  .link_href {
+    padding: 3px 3px;
     color: #f2f2f2;
+    background-color: black;
     text-decoration: none;
   }
 
-  #thanks:hover {
+  .link_href:hover {
     background-color: #ddd;
     color: black;
   }
 
-  #gov {
-    padding: 1px 1px;
-    color: #f2f2f2;
+  #download {
+    padding: 3px 3px;
+    color: black;
     text-decoration: none;
   }
 
-  #gov:hover {
-    background-color: #ddd;
-    color: black;
+  #download:hover {
+    background-color: black;
+    color: #f2f2f2;
   }

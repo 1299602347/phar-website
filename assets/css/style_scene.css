@@ -5,18 +5,22 @@
    
   body {
     font-family: Arial;
+    font-weight: bold;
     padding: 10px;
     background: #f1f1f1;
-    background-image: url(../../img/novamc-background1.jpeg);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/background-krzaqf.jpg);
+    background-attachment: fixed;
     background-repeat: repeat-y;
     background-size: 100%;
   }
+
+  /* header tag */
 
   .header {
     padding: 15%;
     overflow: hidden;
     text-align: center;
-    background-image: url(../../img/background-img1.png);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/background-img1.png);
     background-repeat: repeat-y;
   }
 
@@ -30,11 +34,13 @@
     font-size: 60px;
   }
    
+  /* navigation tag */
+
   .topnav {
     position: relative;
     overflow: hidden;
     background-color: #333;
-    background-image: url(../../img/bottom.png);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/bottom.png);
     text-align: center;
     background-repeat: repeat-x repeat-y;
     width: 100%;
@@ -60,8 +66,10 @@
     color: black;
   }
    
+  /* card tag */
+
   .card1 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     margin-top: 20px;
   }
@@ -77,7 +85,7 @@
     text-align: center;
     background: #ddd;
     margin-top: 10px;
-    background-image: url(../../img/bottom.png);
+    background-image: url(https://royenheart.com/wp-content/uploads/phar-mc/img/bottom.png);
   }
 
   @media screen and (max-width: 800px) {
@@ -93,6 +101,76 @@
       width: 100%;
     }
   }
+
+  /* scene change button style */
+
+  #left_change,#right_change,#img,#b1sc {
+    border-radius: 20px;
+  }
+
+  #img_container {
+    width: 100%;
+    position: relative;
+  }
+
+  #left_change,#right_change {
+    position: absolute;
+    z-index: 2;
+    height: inherit;
+    width: 10%;
+    text-align: center;
+  }
+
+  #left_change {
+    background-image: linear-gradient(to right, rgba(255,255,255,0.3) 5%, rgba(255,255,255,0) 95%);
+    left: 0%;
+  }
+
+  #right_change {
+    background-image: linear-gradient(to left, rgba(255,255,255,0.3) 5%, rgba(255,255,255,0) 95%);
+    right: 0%;
+  }
+
+  #left_change:hover {
+    background-image: linear-gradient(to right, rgba(255,255,255,0.4) 5%, rgba(255,255,255,0.1) 95%);
+  }
+
+  #right_change:hover {
+    background-image: linear-gradient(to left, rgba(255,255,255,0.4) 5%, rgba(255,255,255,0.1) 95%);
+  }
+
+
+  .arrow {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+  }
+
+  #arr1 {
+    left: 0px;
+  }
+
+  #arr2 {
+    right: 0px;
+  }
+
+  #img {
+    width: 100%; 
+    position: absolute;
+    z-index: 1;
+  }
+
+  #b1sc {
+    width: 100%; 
+  }
+
+  /* explain style */
+
+  #explain {
+    font-size: 20px;
+  }
+
+  /* tail tag */
 
   #thanks {
     padding: 1px 1px;
