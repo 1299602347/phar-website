@@ -1,6 +1,6 @@
 <?php
 // 原作者为MCNewsTools，由GamerNoTitle二次修改，模板套用的HTML5UP的HTML模板，请在使用该程序的时候不要删除版权信息，Thanks♪(･ω･)ﾉ！
-$host = "royenheart.com"; //设置服务器域名或 IP
+$host = "game.royenheart.com"; //设置服务器域名或 IP
 $port = "25565"; //设置服务器端口，可以直接用服务器的链接端口，也可以使用query端口（UDP协议）
 /*
 $host = $_GET["host"];
@@ -75,7 +75,7 @@ require_once __DIR__.'/data.php';
             <tr><td>正版验证</td><td>无（需白名单）</td></tr>
             <tr><td>最大在线人数</td><td>10</td></tr>
             <tr><td>服务器插件</td><td>部分基础插件+经济类插件</td></tr>
-            <tr><td>服务器地址</td><td>royenheart.com</td></tr>
+            <tr><td>服务器地址</td><td>game.royenheart.com</td></tr>
             <tr><td>QQ群</td><td>853106198</td></tr>
             <tr><td>卫星地图</td><td><a class="link_href" href="http://royenheart.com:8123">点击查看</a></td></tr>
           </table>
