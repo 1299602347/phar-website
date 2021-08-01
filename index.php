@@ -1,6 +1,6 @@
 <?php
 // 原作者为MCNewsTools，由GamerNoTitle二次修改，模板套用的HTML5UP的HTML模板，请在使用该程序的时候不要删除版权信息，Thanks♪(･ω･)ﾉ！
-$host = "royenheart.com"; //设置服务器域名或 IP
+$host = "game.royenheart.com"; //设置服务器域名或 IP
 $port = "25565"; //设置服务器端口，可以直接用服务器的链接端口，也可以使用query端口（UDP协议）
 /*
 $host = $_GET["host"];
