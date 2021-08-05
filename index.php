@@ -22,6 +22,7 @@ $mainjs = "$CurrDir/assets/js/main.js";
 $mcfile01 = "https://royenheart.com/wp-content/uploads/MC1.16.4%E5%AE%A2%E6%88%B7%E7%AB%AF.7z";
 $mcfile02 = "https://royenheart.com/wp-content/uploads/1.16.4fabric%E6%95%B4%E5%90%88%E5%8C%85.zip";
 $mcfile03 = "https://royenheart.com/wp-content/uploads/%E5%85%B0%E5%A4%A7%E5%A4%8D%E5%88%BB%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%A2%E6%88%B7%E7%AB%AF.zip";
+$mcfile04 = "https://royenheart.com/wp-content/uploads/%E4%B8%89%E6%9C%8D1.6.4SafeCore.zip";
 
 require_once __DIR__.'/data.php';
 ?>
@@ -73,16 +74,16 @@ require_once __DIR__.'/data.php';
             <tr><td>服务器类型</td><td>纯公益服务器</td></tr>
             <tr><td>游戏模式</td><td>纯净原版生存</td></tr>
             <tr><td>正版验证</td><td>无（需白名单）</td></tr>
-            <tr><td>最大在线人数</td><td>10</td></tr>
+            <tr><td>最大在线人数</td><td>15</td></tr>
             <tr><td>服务器插件</td><td>部分基础插件+经济类插件</td></tr>
-            <tr><td>服务器地址</td><td>game.royenheart.com</td></tr>
+            <tr><td>服务器地址</td><td>moyu.welancraft.top</td></tr>
             <tr><td>QQ群</td><td>853106198</td></tr>
-            <tr><td>卫星地图</td><td><a class="link_href" href="http://royenheart.com:8123">点击查看</a></td></tr>
           </table>
         <p style="text-align: center;">
-          服务器仅对兰州大学在校生开放，具体内容请加群了解。<br>
-          也欢迎各位支持复刻兰大的项目，复刻兰大服务器地址：mc4.xlhost.cn:22184 <br>
-          复刻兰大服务器由PloughRemnant友情提供。
+          也欢迎各位支持复刻兰大的项目，复刻兰大服务器地址: ilu.welancraft.top <br>
+          复刻兰大服务器由PloughRemnant友情提供。 <br>
+          同时也欢迎大家加入由PloughRemnant提供的超远古1.6.4服务器: antique.welancraft.top <br>
+          感谢各位的支持。
         </p>
         <br>
       </div>
@@ -94,7 +95,7 @@ require_once __DIR__.'/data.php';
     <div class="rightcolumn">
       <div class="card3">
         <!-- 显示服务器状态代码：原作者为MCNewsTools，由GamerNoTitle二次修改 -->
-        <h2 style="text-align: center;">Minecraft服务器状态</h2>
+        <h2 style="text-align: center;">moyu.welancraft.top</h2>
         <hr>
         <div style="text-align: center;">
         <p>状态：<font color="#1641fd">
@@ -141,15 +142,17 @@ require_once __DIR__.'/data.php';
       </div>
       <div class="card5">
         <h2 style="text-align: center;">联系管理员</h2>
-        <p><a class="link_href" href="https://github.com/1299602347" target="_blank">知交</a></p> 
         <p><a class="link_href" href="https://github.com/royenheart" target="_blank">RoyenHeart</a></p>
+        <p><a class="link_href" href="https://b23.tv/NjvTFO" target="_blank">PloughRemnant</a></p>
+        <p><a class="link_href" href="https://github.com/1299602347" target="_blank">知交</a></p> 
       </div>
       <div class="card6">
         <h2 style="text-align: center;">下载客户端文件</h2>
         <p>支持正版</p>
         <p><a id="download" href="<?php echo $mcfile01; ?>">MC1.16.4纯净客户端</a></p>
-        <p><a id="download" href="<?php echo $mcfile02; ?>">MC1.16.4FABRIC客户端</a></p>
+        <p><a id="download" href="<?php echo $mcfile02; ?>">MC1.16.4FABRIC客户端(带Zmusic)</a></p>
         <p><a id="download" href="<?php echo $mcfile03; ?>">复刻兰大服务器客户端</a></p>
+        <p><a id="download" href="<?php echo $mcfile04; ?>">1.6.4超远古服务器</a></p>
       </div>
     </div>
   </div>
