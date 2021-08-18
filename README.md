@@ -1,3 +1,7 @@
+# 该版本因服务器改动已停止更新，请移步
+
+[新仓库](https://github.com/royenheart/moyucraftSiteFiles)
+
 ## PHAR服务器网站
 LZU PHAR服务器官方网站文件
 
